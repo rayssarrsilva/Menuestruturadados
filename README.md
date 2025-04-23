@@ -1,44 +1,34 @@
-# 🧠 Estudo dos Padrões de Projeto (GoF)
+# 🔢 Projeto de Ordenação com Python (Terminal)
 
-Este projeto é uma iniciativa de estudo e aplicação prática dos **23 padrões de projeto** documentados pelo *Gang of Four* (GoF), com foco na compreensão dos conceitos de **Finalidade** e **Escopo**, além de exemplos de aplicação em código.
+Este é um projeto simples e interativo em Python que permite ao usuário:
+1. Definir o tamanho de um vetor com números aleatórios.
+2. Escolher um algoritmo de ordenação para aplicar.
+3. Visualizar o vetor ordenado no terminal.
 
----
+## 🚀 Funcionalidades
 
-## 📚 Objetivo
+- Geração automática de vetores com valores aleatórios.
+- Menu interativo via terminal.
+- Implementado:
+  - ✅ Bubble Sort
+- Estrutura pronta para:
+  - 🔜 Selection Sort
+  - 🔜 Insertion Sort
+  - 🔜 Merge Sort
+  - 🔜 Quick Sort
+- Fluxo contínuo (loop): após uma ordenação, o programa reinicia o processo automaticamente.
 
-- Compreender a **classificação dos padrões de projeto por finalidade**:
-  - **Criação (Creational)**: instanciamento e criação de objetos.
-  - **Estrutural (Structural)**: composição e estrutura entre classes e objetos.
-  - **Comportamental (Behavioral)**: comunicação e responsabilidades entre objetos.
+## 🧠 Como funciona
 
-- Aplicar exemplos práticos em código (foco em Python, mas adaptável a outras linguagens).
+1. O usuário informa o tamanho do vetor.
+2. O sistema gera automaticamente os números aleatórios.
+3. O usuário escolhe o algoritmo de ordenação.
+4. O resultado é exibido no terminal.
+5. O processo se repete até o usuário digitar `0` para sair.
 
----
+## 📥 Como executar
 
-## 🎯 Classificação por Finalidade
+1. Clone este repositório ou copie o código para um arquivo local:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-| Finalidade      | Descrição                                                                 |
-|-----------------|---------------------------------------------------------------------------|
-| **Criação**     | Lida com o processo de criação de objetos.                               |
-| **Estrutural**  | Lida com a composição de classes/objetos para formar estruturas maiores. |
-| **Comportamental** | Lida com interação e responsabilidades entre objetos.                 |
-
----
-
-## 🧩 Exemplos de Padrões
-
-| Tipo             | Padrão         | Status   |
-|------------------|----------------|----------|
-| **Comportamental** | Strategy        | ✅ Implementado |
-| **Criação**        | Singleton       | 🔜 Em desenvolvimento |
-| **Estrutural**     | Adapter         | 🔜 Em desenvolvimento |
-| ...              | ...            | ...      |
-
----
-
-## 📦 Executando os exemplos
-
-Para rodar os exemplos em Python:
-
-```bash
-python strategy_example.py
